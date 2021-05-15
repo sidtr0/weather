@@ -44,9 +44,15 @@ const Card = () => {
           <div className="font-bold text-3xl mb-2 select-none text-white">
             Weather
           </div>
-          <p className="text-xs select-none text-white">
+          <p className="text-xs select-none text-white under">
             Easily find the weather of a location with a single search. Created
-            by Drac.
+            by Drac. <br />
+            <a
+              className="underline text-blue-200 hover:text-blue-400"
+              href="https://github.com/DracTheDino/weather"
+            >
+              Check out the project on GitHub.
+            </a>
           </p>
           <br />
           <div className="relative flex w-full flex-wrap items-stretch mb-3">
